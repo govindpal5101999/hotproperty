@@ -1,0 +1,24 @@
+.call-header{
+    color: white;
+    animation: scaling 2s linear infinite;
+}
+
+@keyframes scaling {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#imageInput{
+    display: none;
+}
+
+#savebtn{
+    display: none;
+}

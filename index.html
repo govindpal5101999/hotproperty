@@ -9,10 +9,12 @@
   <meta name="generator" content="Hugo 0.108.0">
   <title>Hot Properties</title>
   <link href="styles.css" rel="stylesheet">
-  <script src="main.js"></script>
-  <!-- Custom styles for this template -->
   <link href="carousel.css" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet">
+  <script src="main.js"></script>
+  <script src="custom.js"></script>
 </head>
+
 <body>
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -28,16 +30,20 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Link</a>
+              <a class="nav-link" href="#client">Clients</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contact Us</a>
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <div class="d-flex">
+            <span class="call-header"><img style="filter: invert(100%); border: 1px solid black; padding: 2px 2px;"
+                class="bd-placeholder-img rounded-circle" width="30" height="30" src="images/phone-solid.svg"
+                alt="failed">+91 8109239100</span>
+          </div>
         </div>
       </div>
     </nav>
@@ -54,38 +60,31 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-         <img src="images/Real-E.jpg" alt="failed">
-          </svg>
+          <img style="filter: blur(2px);" height="100%" width="100%" src="images/slide4.jpg" alt="failed">
           <div class="container">
             <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <h1>True View</h1>
+              <p>Physically disconvered projects for you. Once you visit to see properties for your dream home.</p>
               <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
+          <img style="filter: blur(2px);" height="100%" width="100%" src="images/slide1.jpg" alt="failed">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <h1>Virtual Tour</h1>
+              <p>You can visit our website to see more about available properties.</p>
               <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
+          <img style="filter: blur(2px);" height="100%" width="100%" src="images/slide7.jpg" alt="failed">
           <div class="container">
             <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <h1>Expert Assistance on Available Properties.</h1>
+              <p>Get expert Assistance and advice to make an informed property buying decision for your dream home.</p>
               <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
             </div>
           </div>
@@ -109,103 +108,171 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
+      <div id="client" class="row">
+        <h2 class="text-center">Our Satisfied Clients Reviews</h2>
+
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/old_man.jpg" alt="failed">
+          <h2 class="fw-normal">Mr. Hackter</h2>
           <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
             column.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#">&#9733;&#9733;&#9733;&#9733;&#9734;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/young_man.jpg"
+            alt="failed">
+          <h2 class="fw-normal">Mr. Leon</h2>
           <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
           </p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#">&#9733;&#9733;&#9733;&#9734;&#9734;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/young_girl.jpg"
+            alt="failed">
+          <h2 class="fw-normal">Mrs. Shilpa</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
+          </p>
+          <p><a class="btn btn-secondary" href="#">&#9733;&#9733;&#9733;&#9733;&#9734;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-
-
+      <hr class="featurette-divider">
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
+      <div id="about" class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow
+          <h2 class="featurette-heading fw-normal lh-1">Easy deals with less paper work <span class="text-muted">It’ll
+              blow
               your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
-            here.</p>
+          <p class="lead">We are having greate environment with customer friendly employees, which plays the most
+            importan function in the field of proporties dealing.</p>
         </div>
         <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
+          <img style="border-radius: 10px; box-shadow:
+                      inset 0 -3em 3em rgb(0 200 0 / 30%),
+                      0 0 0 2px white,
+                      0.3em 0.3em 1em rgb(200 0 0 / 60%);" src="images/pexels-andrea-piacquadio-3760067.jpg"
+            alt="failed" height="450px" width="450px">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for
-              yourself.</span></h2>
-          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
-            layout would work with some actual real-world content in place.</p>
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">To see
+              beautiful home.</span></h2>
+          <p class="lead">Another important fact about us is that we will provide good services which will help you to
+            choose better for your future home and properties.</p>
         </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
+        <div class="col-md-5">
+          <img style="border-radius: 10px;   box-shadow:
+                      inset 0 -3em 3em rgb(0 200 0 / 30%),
+                      0 0 0 2px white,
+                      0.3em 0.3em 1em rgb(200 0 0 / 60%);" src="images/pexels-binyamin-mellish-186077.jpg" alt="failed"
+            height="450px" width="450px">
         </div>
       </div>
+      <!-- <hr class="featurette-divider">
+      <div>
+        <div class="bd-heading sticky-xl-top text-center mt-5 mb-3 mt-xl-0 mb-xl-2">
+          <h2>Available Properties</h2>
+          <div class="d-flex">
+            <button onclick="browseAndStore()">Browse and Store Images</button><br>
+            <input type="file" id="imageInput" accept=""><br>
+            <button id="savebtn" onclick="displayImages()">Save</button>
+          </div>
+  
+        </div>
+  
+        <div>
+          <div class="bd-example-snippet bd-code-snippet">
+            <div class="bd-example">
+              <figure class="figure">
+                <div id="imageContainer"></div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div> -->
 
-      <hr class="featurette-divider">
 
+      <hr>
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span>
+          <h2 class="featurette-heading fw-normal lh-1">Construction Related queries.<span class="text-muted"> End of
+              the planning.</span>
           </h2>
-          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-            intended to be actually read, simply here to give you a better view of what this would look like with some
-            actual content. Your content.</p>
+          <p class="lead">And yes, construction is another query which comes when we go for buy any property. But no
+            need to worry about we are here to provide you the path for contructing your dream home as well.</p>
         </div>
         <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
+          <img style="border-radius: 10px;   box-shadow:
+                      inset 0 -3em 3em rgb(0 200 0 / 30%),
+                      0 0 0 2px white,
+                      0.3em 0.3em 1em rgb(200 0 0 / 60%);" src="images/pexels-pixabay-534220.jpg" alt="failed"
+            height="450px" width="450px">
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr>
+
+      <div id="contact" class="row featurette">
+        <div class="container px-4 py-5">
+          <h2 style="text-decoration: underline;" class="pb-2">Contact Us</h2>
+
+          <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+            <div class="col d-flex flex-column align-items-start gap-2">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/Real-E.jpg" alt="">
+              <h3 class="fw-bold">Hot Properties..</h3>
+              <p class="text-muted">#1797, 4th Block, 14th Main Rd, MP Nager, Bhopal, Madhya Pradesh 462001</p>
+              <a href="#" class="btn btn-primary btn-lg">Call Us +91 8109239100</a>
+            </div>
+
+            <div class="col">
+              <div class="row row-cols-1 row-cols-sm-2 g-4">
+                <div class="col d-flex flex-column gap-2">
+                  <div
+                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                    <img width="50" height="50" src="images/envelope-solid.svg" alt="failed">
+                  </div>
+                  <h4 class="fw-semibold mb-0">Email Us</h4>
+                  <p class="text-muted"> <a href="https://www.gmail.com" target="_blank"> govindgame2616@gmail.com</a>
+                  </p>
+                </div>
+
+                <div class="col d-flex flex-column gap-2">
+                  <div
+                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                    <img width="50" height="50" src="images/linkedin.svg" alt="failed">
+                  </div>
+                  <h4 class="fw-semibold mb-0">Follow us on linkedin</h4>
+                  <p class="text-muted"><a href="https://www.linkedin.com" target="_blank">linkedin</a></p>
+                </div>
+
+                <div class="col d-flex flex-column gap-2">
+                  <div
+                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                    <img width="50" height="50" src="images/instagram.svg" alt="failed">
+                  </div>
+                  <h4 class="fw-semibold mb-0">Follow us on instagram</h4>
+                  <p class="text-muted"><a href="https://www.instagram.com" target="_blank">instagram</a></p>
+                </div>
+
+                <div class="col d-flex flex-column gap-2">
+                  <div
+                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                    <img width="50" height="50" src="images/facebook.svg" alt="failed">
+                  </div>
+                  <h4 class="fw-semibold mb-0">Follow us on facebook</h4>
+                  <p class="text-muted"><a href="https://www.facebook.com" target="_blank">facebook</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
 
       <!-- /END THE FEATURETTES -->
 
